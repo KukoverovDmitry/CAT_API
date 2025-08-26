@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="213b7f1d-ee75-4f2b-a7be-4181672033e5" name="Changes" comment="создана функция получение изображения" />
+    <list default="true" id="213b7f1d-ee75-4f2b-a7be-4181672033e5" name="Changes" comment="создана функция получение изображения">
+      <change beforePath="$PROJECT_DIR$/CATaas.py" beforeDir="false" afterPath="$PROJECT_DIR$/CATaas.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756207021439</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="создана функция получение изображения">
+      <option name="closed" value="true" />
+      <created>1756207077034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756207077034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -3,7 +3,7 @@ from PIL import Image, ImageTk
 import requests
 from io import BytesIO
 
-def load_image():
+def load_image(url):
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -14,8 +14,12 @@ def load_image():
         print(f"Ошибка {error}")
         return None
 
+def set_image(url):
+    img = load_image(url)
 
-
+    if img:
+        label.configure(image=img)
+        label.image = img
 
 
 window = Tk()
@@ -25,15 +29,18 @@ window.geometry("600x480")
 
 label = Label()
 label.pack()
+update_button = Button(text="Обновить", command= set_image)
+update_button.pack()
 
 
-url = "http://cataas.com/cat   "
+url = "https://cataas.com/cat"
 img = load_image(url)
 
 if img:
     label.configure(image=img)
     label.image = img
 
+set_image (url)
 
 window.mainloop()
 
