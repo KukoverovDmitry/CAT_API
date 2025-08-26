@@ -58,6 +58,7 @@ file_menu.add_command(label="Выход", command=exit)
 url = "https://cataas.com/cat"
 img = load_image(url)
 
+set_image()
 
 
 
