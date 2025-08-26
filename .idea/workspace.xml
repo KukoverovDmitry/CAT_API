@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="213b7f1d-ee75-4f2b-a7be-4181672033e5" name="Changes" comment="Добавлено изменение картинки">
+    <list default="true" id="213b7f1d-ee75-4f2b-a7be-4181672033e5" name="Changes" comment="вернул функцию set/">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CATaas.py" beforeDir="false" afterPath="$PROJECT_DIR$/CATaas.py" afterDir="false" />
     </list>
@@ -125,7 +125,31 @@
       <option name="project" value="LOCAL" />
       <updated>1756208056248</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавлено меню">
+      <option name="closed" value="true" />
+      <created>1756208543648</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756208543648</updated>
+    </task>
+    <task id="LOCAL-00009" summary="вернул функцию set">
+      <option name="closed" value="true" />
+      <created>1756210090636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756210090636</updated>
+    </task>
+    <task id="LOCAL-00010" summary="вернул функцию set/">
+      <option name="closed" value="true" />
+      <created>1756210186520</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756210186520</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +170,9 @@
     <MESSAGE value="создана функция получение изображения" />
     <MESSAGE value="Добавили кнопку" />
     <MESSAGE value="Добавлено изменение картинки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено изменение картинки" />
+    <MESSAGE value="Добавлено меню" />
+    <MESSAGE value="вернул функцию set" />
+    <MESSAGE value="вернул функцию set/" />
+    <option name="LAST_COMMIT_MESSAGE" value="вернул функцию set/" />
   </component>
 </project>
