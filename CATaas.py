@@ -3,6 +3,19 @@ from PIL import Image, ImageTk
 import requests
 from io import BytesIO
 
+def load_image():
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        image_data = BytesIO(response.content)
+        img = Image.open(image_data)
+        return ImageTk.PhotoImage(img)
+    except Exception as error:
+        print(f"Ошибка {error}")
+        return None
+
+
+
 
 
 window = Tk()
